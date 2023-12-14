@@ -20,6 +20,7 @@ export default {
           900: "#0F172A",
         },
         orange: {
+          100: "#FFDCCC",
           400: "#FF8F58",
           500: "#FF5400",
         },

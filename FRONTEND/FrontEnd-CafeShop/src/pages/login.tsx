@@ -47,7 +47,9 @@ const LoginPage = () => {
         <div className="grid grid-cols-2 h-screen bg-gray-50">
             <div>
                 <div className="py-5 px-28">
-                    <img src={logoMain} alt="Café Shop" className="w-15" />
+                    <nav className="w-15">
+                        <img src={logoMain} alt="Café Shop" />
+                    </nav>
                     <main className="flex flex-col mt-20 gap-10 w-full max-w-[384px]">
                         <header className="flex flex-col gap-4 w-full max-w-[350px]">
                             <h1 className="font-sans text-4xl font-bold text-gray-800">

@@ -1,9 +1,19 @@
 import clsx from "clsx"
+import logoMain from '../assets/cafe-logo-1.png'
 
 const createUser = () => {
     return (
-        <div className="bg-gray-50 flex justify-center items-center py-5">
+        <div className="bg-gray-50 flex justify-center items-center py-5 px-28">
             <main className="w-full max-w-[600px]">
+                <nav className="w-14">
+                    <img src={logoMain} alt="Café Shop" />
+                </nav>
+                <header className="flex flex-col gap-4 w-full max-w-[350px]">
+                    <h1 className="font-sans text-4xl font-bold text-gray-800">
+                        Cadastro de novo Usuário
+                    </h1>
+                    <br />
+                </header>
                 <form
                     action=""
                     className="flex flex-col gap-4"
